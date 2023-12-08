@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bildergalerie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .card {
+      margin-bottom: 20px;
+    }
+
+    .card-img-top {
+      transition: transform 0.5s ease;
+      cursor: pointer;
+    }
+
+    .card:hover .card-img-top {
+      transform: scale(1.1);
+    }
+
+    .modal-content {
+      text-align: center;
+    }
+
+    .modal-body img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1 class="text-center my-5">Meine Bildergalerie</h1>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a href="#" data-toggle="modal" data-target="#imageModal">
+        <div class="card">
+          <img class="card-img-top" src="images/urban/urban1.PNG" height="260px"alt="Bild 1">
+          <div class="card-body"></a>
+            <h5 class="card-title">Beschreibung</h5>
+            <p class="card-text">Kategorie: Urban Scenes</p>
+            <p class="card-text">Preis: </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a href="#" data-toggle="modal" data-target="#imageModal">
+        <div class="card">
+          <img class="card-img-top" src="images/urban/urban2.PNG" height="260px" alt="Bild 2">
+          <div class="card-body"></a>
+            <h5 class="card-title">Beschreibung</h5>
+            <p class="card-text">Kategorie: Urban Scenes</p>
+            <p class="card-text">Preis: </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a href="#" data-toggle="modal" data-target="#imageModal">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 3">
+          <div class="card-body"></a>
+            <h5 class="card-title">Beschreibung</h5>
+            <p class="card-text">Kategorie: Urban Scenes</p>
+            <p class="card-text">Preis: </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a href="#" data-toggle="modal" data-target="#imageModal">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 4">
+          <div class="card-body"></a>
+            <h5 class="card-title">Beschreibung</h5>
+            <p class="card-text">Kategorie: Urban Scenes</p>
+            <p class="card-text">Preis: </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a href="#" data-toggle="modal" data-target="#imageModal">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 5">
+          <div class="card-body"></a>
+            <h5 class="card-title">Bild 5</h5>
+            <p class="card-text">Kategorie: Urban Scenes</p>
+            <p class="card-text">Preis: </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a href="#" data-toggle="modal" data-target="#imageModal">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 6">
+          <div class="card-body"></a>
+            <h5 class="card-title">Bild 6</h5>
+            <p class="card-text">Kategorie: Urban Scenes</p>
+            <p class="card-text">Preis: </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Modal für vergrößertes Bild -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://via.placeholder.com/800x600" alt="Großes Bild">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
