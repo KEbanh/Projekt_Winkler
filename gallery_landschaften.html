@@ -27,18 +27,23 @@
       max-width: 100%;
       height: auto;
     }
+    h1{ 
+      background-color:#F5F5F5;
+
+    }
   </style>
 </head>
 <body>
 
 <div class="container-fluid">
-  <h1 class="text-center my-5">Meine Bildergalerie</h1>
+  <center><a href="index.html"><img src="images/logo/logo.png"> </a></center>
 
+  <h1 class="text-center my-5">Bildergalerie Landschaften</h1>
   <div class="row">
     <div class="col-lg-4 col-md-6 mb-4">
-      <a href="#" data-toggle="modal" data-target="#imageModal">
+      <a href="#" data-toggle="modal" data-target="#imageModal1">
         <div class="card">
-          <img class="card-img-top" src="images/landschaften/landschaft1.PNG" height="260px" alt="Bild 1">
+          <img class="card-img-top" src="images/landschaften/landschaft1.PNG" height="320px" alt="Bild 1">
           <div class="card-body">
 		  </a>
             <h5 class="card-title">Beschreibung</h5>
@@ -50,9 +55,9 @@
     </div>
 
     <div class="col-lg-4 col-md-6 mb-4">
-      <a href="#" data-toggle="modal" data-target="#imageModal">
+      <a href="#" data-toggle="modal" data-target="#imageModal2">
         <div class="card">
-          <img class="card-img-top" src="images/landschaften/landschaft2.PNG" height="260px"alt="Bild 2">
+          <img class="card-img-top" src="images/landschaften/landschaft2.PNG" height="320px"alt="Bild 2">
           <div class="card-body">
 		  </a>
             <h5 class="card-title">Beschreibung</h5>
@@ -64,9 +69,9 @@
     </div>
 
     <div class="col-lg-4 col-md-6 mb-4">
-      <a href="#" data-toggle="modal" data-target="#imageModal">
+      <a href="#" data-toggle="modal" data-target="#imageModal3">
         <div class="card">
-          <img class="card-img-top" src="images/landschaften/landschaft3.PNG" height="260px"alt="Bild 3">
+          <img class="card-img-top" src="images/landschaften/landschaft3.PNG" height="320px"alt="Bild 3">
           <div class="card-body"></a>
             <h5 class="card-title">Beschreibung</h5>
             <p class="card-text">Kategorie: Landschaften</p>
@@ -76,49 +81,12 @@
      
     </div>
 
-    <div class="col-lg-4 col-md-6 mb-4">
-      <a href="#" data-toggle="modal" data-target="#imageModal">
-        <div class="card">
-          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 4">
-          <div class="card-body"></a>
-            <h5 class="card-title">Beschreibung</h5>
-            <p class="card-text">Kategorie: Landschaften</p>
-            <p class="card-text">Preis: </p>
-          </div>
-        </div>
-      
-    </div>
-
-    <div class="col-lg-4 col-md-6 mb-4">
-      <a href="#" data-toggle="modal" data-target="#imageModal">
-        <div class="card">
-          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 5">
-          <div class="card-body"></a>
-            <h5 class="card-title">Beschreibung</h5>
-            <p class="card-text">Kategorie: Landschaften</p>
-            <p class="card-text">Preis: </p>
-          </div>
-        </div>
-     
-    </div>
-
-    <div class="col-lg-4 col-md-6 mb-4">
-      <a href="#" data-toggle="modal" data-target="#imageModal">
-        <div class="card">
-          <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Bild 6">
-          <div class="card-body"></a>
-            <h5 class="card-title">Beschreibung</h5>
-            <p class="card-text">Kategorie: Landschaften</p>
-            <p class="card-text">Preis: </p>
-          </div>
-        </div>
-    
-    </div>
+   
   </div>
 </div>
 
 <!-- Modal für vergrößertes Bild -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+<div class="modal fade" id="imageModal1" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -127,11 +95,51 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src="https://via.placeholder.com/800x600" alt="Großes Bild">
+        <img src="images/landschaften/landschaft1.PNG" alt="Großes Bild">
       </div>
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="imageModal2" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/landschaften/landschaft2.PNG" alt="Großes Bild">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="imageModal3" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/landschaften/landschaft3.PNG" alt="Großes Bild">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
